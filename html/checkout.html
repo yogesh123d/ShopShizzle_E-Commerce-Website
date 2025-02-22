@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Shop Shizzle</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="top_nav">
+        <div class="container top_nav_container">
+            <div class="top_nav_wrapper">
+                <p class="top_nav_p">
+                    Summer Sale For All Swim Suits And Free Shop Shizzle Delivery -OFF 50%!
+                </p>
+                <a href="#" class="top_nav_link">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="container nav_container">
+            <a href="#" class="nav_logo">Shop Shizzle</a>
+            <ul class="nav_list">
+                <li class="nav_item"><a href="/html/index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+                <li class="nav_item"><a href="/html/about.html" class="nav_link">About</a></li>
+                <li class="nav_item"><a href="/html/sign-up.html" class="nav_link">Sign Up</a></li>
+            </ul>
+            <div class="nav_items">
+                <form action="" class="nav_form">
+                    <input type="text" class="nav_input" placeholder="Search here...">
+                    <img src="/images/header/search.png" alt="" class="nav_search">
+                </form>
+                <img src="/images/header/heart.png" alt="" class="nav_heart">
+                <a href="/html/cart.html" class="">
+                    <img src="/images/header/Cart1.png" alt="" class="nav_cart">
+                </a>
+                <a href="#">
+                    <img src="/images/header/account_img/user (1).png" alt="" class="nav_account_img" onclick="toggleMenu()">
+                  </a>
+            </div>
+            <span class="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="hamburer_svg">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </span>
+        </div>
+    </nav>
+    <nav class="mobile_nav mobile_nav_hide">
+        <ul class="mobile_nav_list">
+            <li class="mobile_nav_item"><a href="/html/index.html" class="mobile_nav_link">Home</a></li>
+            <li class="mobile_nav_item"><a href="/html/about.html" class="mobile_nav_link">About</a></li>
+            <li class="mobile_nav_item"><a href="#" class="mobile_nav_link">Contact</a></li>
+            <li class="mobile_nav_item"><a href="/html/sign-up.html" class="mobile_nav_link">SignUp</a></li>
+            <li class="mobile_nav_item"><a href="/html/cart.html" class="mobile_nav_link">Cart</a></li>
+        </ul>
+    </nav>
+    
+      <!-- Billing Details -->
+   <section class="section">
+    <div class="container">
+      <div class="billing_details">
+        <div class="checkout_location">
+            <p><a href="#" class="checkout_location_a">Account /</a></p>
+            <p><a href="#" class="checkout_location_a">My Account /</a></p>
+            <p><a href="/html/index.html" class="checkout_location_a">Product /</a></p>
+            <p><a href="/html/cart.html" class="checkout_location_a">View Cart /</a></p>
+            <p><a href="/html/checkout.html" class="checkout_page_location_a">Checkout</a></p>
+        </div>
+        <h2 class="billing_details_heading">Billing Details</h2>
+        <div class="billing_details_list">
+            <ul>
+                <li>
+                    <p class="billing_details_list_p">First Name
+
+                    </p>
+                    <input type="text"class="billing_details_list_input">
+                </li>    
+                <li>    
+                    <p class="billing_details_list_p">Company Name
+                    </p>
+                    <input type="text"class="billing_details_list_input">
+                </li>
+                    <li>
+                        <p class="billing_details_list_p">Street Address
+                        </p>
+                        <input type="text"class="billing_details_list_input">
+                    </li>
+                    <li>
+                        <p class="billing_details_list_p">Apartment,Floor,Building,etc.(optional)
+                        </p>
+                        <input type="text"class="billing_details_list_input">
+                    </li>
+                    <li>
+                        <p class="billing_details_list_p">Town/City
+                        </p>
+                        <input type="text"class="billing_details_list_input">
+                    </li>
+                    <li>
+                        <p class="billing_details_list_p">Phone Number
+                        </p>
+                        <input type="text"class="billing_details_list_input">
+                    </li>
+                    <li>
+                        <p class="billing_details_list_p">Email Address
+                        </p>
+                        <input type="text"class="billing_details_list_input">
+                    </li>
+                </ul>
+        </div>
+        <input type="checkbox" name="" class="save_checkout_info_checkbox" id="">
+        <p class="save_checkout_info_p">Save the Information for faster check-out Next time</p>
+      </div>
+    </div>
+   </section>
+   <section class="section">
+    <div class="container">
+        <div class="checkout_cart_items">
+            <div class="cart-items">
+            </div>
+        </div>
+   </section>
+   <section class="section">
+    <div class="container">
+        <div class="checkout_cart_price">
+            <p class="checkout_item_subtotal">Subtotal:</p>
+            <p class="checkout_items_subtotal_price">$2000</p>
+            <hr>
+            <p class="checkout_item_shippingcharge">Shipping Charge:</p>
+            <p class="checkout_item_shippingcharge_price">Free:</p>
+            <hr>
+            <p class="checkout_item_subtotal">Total</p>
+            <p class="checkout_item_subtotal_price">$2000</p>
+            <hr>
+        </div>
+        </div>
+    </div>
+   </section>
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_item">
+                <a href="#" class="footer_logo">Shop Shizzle</a>
+                <h3 class="footer_item_title">Subscribe</h3>
+                <p class="footer_p">Get 10% off your first order</p>
+            </div>
+            <div class="footer_item">
+                <h3 class="footer_item_title">Support</h3>
+                <ul class="footer_list">
+                    <li class="footer_list_item">Main Branch-Shop Shizzle,OMR,Chennai.</li>
+                    <li class="footer_list_item">shopshizzle@gmail.com</li>
+                    <li class="footer_list_item">+88015-88888</li>
+                    <li class="footer_list_item">+46576-81436</li>
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h3 class="footer_item_title">Account</h3>
+                <ul class="footer_list">
+                    <li class="footer_list_item">My Account</li>
+                    <li class="footer_list_item">Login-Register</li>
+                    <li class="footer_list_item">Cart</li>
+                    <li class="footer_list_item">Wishlist</li>
+                    <li class="footer_list_item">Shop</li>
+                </ul>
+            </div>
+            <div class="footer_item">
+                <h3 class="footer_item_title">Quick Link</h3>
+                <ul class="footer_list">
+                    <li class="footer_list_item">Privacy Policy</li>
+                    <li class="footer_list_item">Terms of Use</li>
+                    <li class="footer_list_item">FAQ</li>
+                    <li class="footer_list_item">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="footer_button">
+        <div class="container footer_bottom_container">
+            <p class="footer_copy">Copyright Rimel 2025. All right reserved.</p>
+        </div>
+    </div>
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/Cart.js"></script>
+    <script src="/js/checkout.js"></script>
+</body>
+
+</html>
