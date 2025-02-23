@@ -14,10 +14,10 @@ var x = setInterval(function() {
   }
 }, 1000);
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 2,
-  spaceBetween: 10,
+  slidesPerView: 1,
+  spaceBetween: 5,
   pagination: {
-    el: ".swiper-pagination",
+    el: ".swiper_checkout_cart",
     clickable: true,
   },
   breakpoints: {
@@ -59,14 +59,14 @@ var swiper = new Swiper(".mySwiper", {
     distance:"20px",
     opacity:0,
     duration:1000,
-    delay:100,
+    delay:200,
   })
   ScrollReveal().reveal(".footer",{
     origin :"bottom",
     distance:"20px",
     opacity:0,
     duration:1000,
-    delay:100,
+    delay:200,
   })
 
   // Mobile_Nav

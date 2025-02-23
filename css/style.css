@@ -911,12 +911,14 @@ ul {
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    cursor: pointer;
 }
 .bank_p{
     margin-top: 2rem;
     margin-bottom: 1rem;
     margin-left: .3rem;
-    margin-right: 1rem; 
+    margin-right: 1rem;
+    cursor: pointer; 
 }
 .bank_imgs{
     display: flex;
@@ -941,12 +943,14 @@ ul {
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    cursor: pointer;
 }
 .cod_p{
     margin-top: 2rem;
     margin-bottom: 1rem;
     margin-left: .3rem;
-    margin-right: 1rem; 
+    margin-right: 1rem;
+    cursor: pointer; 
 }
 .coupon_code{
     display: flex;
