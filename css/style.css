@@ -807,6 +807,9 @@ ul {
         margin: 0% .8rem;
     color: var(--colo-dark-1);
  }
+ .billing_details{
+    width: 100%;
+ }
  .billing_details_heading{
     width: 100%;
     font-size: 3rem;
@@ -846,15 +849,36 @@ ul {
     display: flex;
     font-size: 1.5rem;
 }
-.checkout_container{
-    display: grid;
-}
-.checkout_cart_items section{
-    display: grid;
-    width: 50%;
+.checkout_cart_items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 3rem 2rem;
 }
 .checkout_cart_price{
-    margin: 1rem 1rem;
+    margin: 1.5rem 1rem;
     display: grid;
-    grid-template-columns: repeat();
+    grid-template-columns: repeat(2,90%);
+}
+.checkout_page{
+    display: flex;
+}
+.billing_details_head{
+    display: flex;
+    width: 100%;
+}
+.Your_product_h{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.checkout_shipping_charge{
+    margin: 1.5rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,90%);
+}
+.checkout_total{
+    margin: 1.5rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,90%);
 }
