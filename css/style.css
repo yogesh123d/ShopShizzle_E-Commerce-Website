@@ -796,15 +796,17 @@ ul {
  /* checkout page */
  .checkout_location{
     display: flex;
-    width: 100%;
-    margin-bottom: 10rem;
+    justify-content: space-between;
+    margin-bottom:10rem;
  }
  .checkout_location_a{
-    margin: 0% .8rem;
+    width: 100%;
+    display: flex;
+    margin: 0%;
     color: var(--colo-dark-2);
  }
  .checkout_page_location_a{
-        margin: 0% .8rem;
+        margin: 0%;
     color: var(--colo-dark-1);
  }
  .billing_details{
@@ -812,7 +814,7 @@ ul {
  }
  .billing_details_heading{
     width: 100%;
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: 600;
  }
  .billing_details_list{
@@ -856,29 +858,133 @@ ul {
     margin: 3rem 2rem;
 }
 .checkout_cart_price{
-    margin: 1.5rem 1rem;
-    display: grid;
-    grid-template-columns: repeat(2,90%);
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 .checkout_page{
     display: flex;
 }
 .billing_details_head{
-    display: flex;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* align-items:start;
+    justify-content: space-around;
+    display:flex;
+    justify-content: space-around;
+    width: 100%; */
 }
 .Your_product_h{
+    margin-top: 1.5rem;
     width: 100%;
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 2.6rem;
+    font-weight: 700;
 }
 .checkout_shipping_charge{
-    margin: 1.5rem 1rem;
-    display: grid;
-    grid-template-columns: repeat(2,90%);
+    margin-top:3rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 .checkout_total{
-    margin: 1.5rem 1rem;
-    display: grid;
-    grid-template-columns: repeat(2,90%);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+/* bank */
+.bank_box{
+    display: flex;
+    margin: 1rem 1rem;
+}
+.bank_check__box{
+    width: 1.5rem;
+    height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.bank_p{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: .3rem;
+    margin-right: 1rem; 
+}
+.bank_imgs{
+    display: flex;
+    margin-left: 5rem;
+}
+.bank_img{
+    width: 30%;
+    height: 30%;
+    margin-left: .8rem;
+    margin-top: 2rem;
+}
+/* c o d */
+.cashon_delivery{
+    display: flex;
+    margin-left: 1rem;
+    margin-bottom: 0%;
+}
+.cod_check__box{
+    width: 1.5rem;
+    height: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.cod_p{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: .3rem;
+    margin-right: 1rem; 
+}
+.coupon_code{
+    display: flex;
+    margin: 1rem 1rem;
+}
+.coupon_code_box{
+    height: 4rem;
+    width: 30rem;
+    padding: 1rem 1rem;
+    text-align: left;
+    text-decoration: var(--colo-dark-2);
+    font-size: 1.5rem;
+}
+.apply_coupon_btn{
+    margin-left: 4rem;
+    height: 4rem;
+    width: 30rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid;
+    color: var(---colo-white-1);
+    background-color: var(--colo-primary);
+    cursor: pointer;
+}
+.place_order_box{
+    margin: 1rem 1rem;
+    display: flex;
+    justify-content: left;
+}
+.place_order_btn{
+    height: 4rem;
+    width: 25rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid;
+    color: var(---colo-white-1);
+    background-color: var(--colo-primary);
+    cursor: pointer; 
 }
