@@ -92,7 +92,7 @@ var swiper = new Swiper(".mySwiper", {
       const cart = JSON.parse(localStorage.getItem("cart")) || [];
       cart.push(cartItem);
       localStorage.setItem("cart", JSON.stringify(cart));
-      localStorage.setItem("myKey", "myValue");
+      localStorage.setItem("Key","Value");
     });
   });
 

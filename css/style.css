@@ -1100,10 +1100,11 @@ ul {
 .account_page {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border: 2px solid var(---colo-white-2);
     justify-content: space-between;
 }
-
+.manage_my_acc_head{
+    border: 2px solid var(---colo-white-2);
+}
 .account_location {
     display: flex;
     justify-content: left;
@@ -1326,6 +1327,7 @@ ul {
 .password_changes {
     display: flex;
     flex-flow: column;
+    width: 97%;
 }
 
 .password_changes_h {
@@ -1382,4 +1384,123 @@ ul {
     text-align: center;
     padding: 1.5rem;
     border-radius: 5px;
+}
+/* Contact Page */
+.contact_page_head{
+    display: grid;
+    grid-template-columns: repeat(2,30% 70%);
+    justify-content: space-between;
+}
+.contact_page{
+    border: 2px solid var(---colo-white-2);
+}
+.contact_page_location{
+    display: flex;
+    margin-top:10rem;
+    margin-bottom: 5rem;
+    margin-left: 15rem;
+    margin-right: 0px;
+}
+.contact_loc{
+    margin-left:2rem ;
+    color: var(--colo-dark-1);
+}
+.home_loc{
+    color: var(--colo-dark-2);
+}
+.call_img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: var(--colo-primary);
+    border-radius:50%;
+    margin: 10px;
+    padding: 10px;
+}
+.contact_title{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--colo-dark-1);
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+.contact_p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+}
+.contact_text hr{
+    width: 28rem;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+.contact_text{
+    margin-left: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+}
+.contact_user_details{
+    margin-top: 0rem;
+    margin-left: 3rem;
+    margin-bottom: 0rem;
+    border: 2px solid var(---colo-white-2);
+}
+.contact_user input{
+    margin-top: 5rem;
+    margin-left: 3.5rem;
+    width: 20rem;
+    height: 4rem;
+    background-color: var(---colo-white-2);
+    border:none;
+    outline: none;
+    text-align: left;
+    border-radius: 5px;
+    padding-left: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.contact_user_msg{
+    margin-top: 3rem;
+}
+.user_msg_box{
+    background-color: var(---colo-white-2);
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 25rem;
+    margin-top:3rem;
+    margin-bottom: 2rem;
+    margin-left: 3.5rem;
+    margin-right: 0px;
+    padding:2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.send_msg{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: right;
+    margin-right: 4rem ;
+}
+.send_msg_bt{
+    padding: 1rem;
+    height: 4rem;
+    width: 15rem;
+    background-color: var(--colo-primary);
+    border: none;
+    outline: none;
+    color: var(---colo-white-1);
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.imp_field{
+    width: .5rem;
+    height: .5rem;
+    fill: rgb(243, 169, 8);
 }
